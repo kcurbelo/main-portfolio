@@ -14,7 +14,35 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>s</h1>
+    <!-- =================================== -->
+    <!-- Nav Bar -->
+    <!-- ===================================  -->    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Projects
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="wrazel.html">Director of Marketing</a>
+              <a class="dropdown-item" href="interlink.html">Designing Product From Scratch</a>
+              <a class="dropdown-item" href="ui-design-kit">An IOS Design Kit</a>              
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">Contact</a>
+          </li>          
+        </ul>
+      </div>
+    </nav>
+    
     <div class="jumbotron jumbotron-fluid" style="background-color: transparent !important;background-image: url('https://images.pexels.com/photos/3617457/pexels-photo-3617457.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');padding: 12rem 2rem;">
       <div class="container">
         <h1 class="display-4">Being a Director of <br>Product Management</h1>
@@ -24,7 +52,8 @@
     <div class="container">
         <div class="col-md-7 offset-md-3">        
             <h2 class="display-4">About the Project</h2>
-            <p>Wrazel was a <a href="https://www.wrazel.com/directory/">business directory</a> and <a href="https://mp.wrazel.com/">investment marketplace</a>. However, when I joined the business it was Investnest which was a capital raising platform for real estate.</p> 
+            <p>Wrazel was a <a href="https://www.wrazel.com/directory/" class="text-danger under">business directory</a> and <a href="https://mp.wrazel.com/" class="text-danger under">investment marketplace</a>. However, when I joined the business it was Investnest which was a capital raising platform for real estate.</p> 
+            <a type="button" class="btn btn-danger btn-lg mb-4" role="button" href="https://docs.google.com/drawings/d/1XiWs1G9FQ5viRNtWvIPyRtxuXe78gtqaRVuwaq54dXs/edit" target="_blank">Visit Project</a>            
             <h3>The problem</h3>
             <p class="mb-0"><small id="emailHelp" class="form-text text-muted">Prior to the pivot</small></p>
             <p>There was a major need to fix the UI of the software when I came aboard. Much of the UI had been thrown together with no real thought as to how a user would use the product. The search fields were confusing, was not mobile, the map was inaccurate, and filling forms were so complicated clients needed to call in so we could walk them through it. In addition to fixing the UX/UI issues, I had to provide reccomendations to the C-Suite as to possible paths forward that could be implemented in the most efficient and legal manner.</p>
@@ -95,6 +124,11 @@
             </ul>
         </div>
     </div>   
+
+
+    <div class="container text-center" style="margin: 8rem auto;">
+        <a href="#" class="text-danger under"> Back to homepage</a>
+    </div>    
 
 
 

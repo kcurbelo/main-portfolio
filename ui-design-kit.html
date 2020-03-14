@@ -14,7 +14,38 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>s</h1>
+
+    <!-- =================================== -->
+    <!-- Nav Bar -->
+    <!-- ===================================  -->    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Projects
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="wrazel.html">Director of Marketing</a>
+              <a class="dropdown-item" href="interlink.html">Designing Product From Scratch</a>
+              <a class="dropdown-item" href="ui-design-kit">An IOS Design Kit</a>              
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">Contact</a>
+          </li>          
+        </ul>
+      </div>
+    </nav>
+
+
+
     <div class="jumbotron jumbotron-fluid" style="background-color: transparent !important;background-image: url('https://images.pexels.com/photos/3617457/pexels-photo-3617457.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');padding: 12rem 2rem;">
       <div class="container">
         <h1 class="display-4">Creating a free UI design <br>kit for the world</h1>
@@ -25,6 +56,7 @@
         <div class="col-md-7 offset-md-3">        
             <h2 class="display-4">About the Project</h2>
             <p>The IOS 13 UI design kit was a project I created to "Scratch my own itch". I needed some lockscreen elements for the new IOS udate but couldn't find them anywhere. As I started to make it I realized that other people would probably want want this too. So I expanded on what I was designing and created a complete design kit with battery states, notifications, and even gesture designs.</p> 
+            <a type="button" class="btn btn-danger btn-lg mb-4" role="button" href="https://docs.google.com/drawings/d/1XiWs1G9FQ5viRNtWvIPyRtxuXe78gtqaRVuwaq54dXs/edit" target="_blank">Visit Project</a>
             <h3>The problem</h3>
             <p>Creating all the elements for the IOS 13 lockscreen including use cases.</p>
         </div>
@@ -71,10 +103,12 @@
                 <li>Save your work constantly</li>
                 <li>Scratch your own design itch</li>
             </ul>
-            </ul>
         </div>
-    </div>   
+    </div>  
 
+    <div class="container text-center" style="margin: 8rem auto;">
+        <a href="#" class="text-danger under"> Back to homepage</a>
+    </div>
 
 
     <!-- Optional JavaScript -->
